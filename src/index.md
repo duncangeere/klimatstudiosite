@@ -10,8 +10,17 @@ intro:
   image: '/images/headshot.png'
   imageAlt: 'Black and white circular photo of Duncan Geere'
 
+blurb:
+  summary: 'I help people communicate complex, nuanced information to a wider audience through clear writing, careful editing, and beautiful data visualization.'
+
 featuredWork:
   title: 'My work'
+
+whyCollaborate:
+  title: 'Why collaborate with me?'
+
+testimonials:
+  title: 'What my clients say'
 
 newsletterCTA:
   title: 'Not ready to talk yet?'

@@ -10,6 +10,9 @@ intro:
   image: '/images/headshot.png'
   imageAlt: 'Black and white circular photo of Duncan Geere'
 
+featuredWork:
+  title: 'My work'
+
 newsletterCTA:
   title: 'Not ready to talk yet?'
   summary: 'Sign up for my newsletter, sent every 10 days, where I write about my work and what I find interesting'

@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "text": "My Work",
+      "url": "#mywork"
+    },
+    {
+      "text": "Newsletter",
+      "url": "https://buttondown.email/duncangeere"
+    },
+    {
+      "text": "Blog",
+      "url": "https://blog.duncangeere.com"
+    },
+    {
+      "text": "Tw",
+      "url": "http://twitter.com/duncangeere"
+    },
+    {
+      "text": "In",
+      "url": "http://instagram.com/notrealistic"
+    },
+    {
+      "text": "Li",
+      "url": "http://linkedin.com/in/duncangeere"
+    }
+  ]
+}

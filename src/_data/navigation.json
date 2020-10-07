@@ -1,28 +1,28 @@
 {
-  "items": [
+    "txt": [
     {
-      "text": "My Work",
-      "url": "#mywork"
+        "text": "My Work",
+        "url": "#mywork"
     },
     {
-      "text": "Newsletter",
-      "url": "https://buttondown.email/duncangeere"
+        "text": "Newsletter",
+        "url": "https://buttondown.email/duncangeere"
     },
     {
-      "text": "Blog",
-      "url": "https://blog.duncangeere.com"
+        "text": "Blog",
+        "url": "https://blog.duncangeere.com"
+    }],
+    "ico": [
+    {
+        "icon": "tw",
+        "url": "http://twitter.com/duncangeere"
     },
     {
-      "text": "Tw",
-      "url": "http://twitter.com/duncangeere"
+        "icon": "in",
+        "url": "http://instagram.com/notrealistic"
     },
     {
-      "text": "In",
-      "url": "http://instagram.com/notrealistic"
-    },
-    {
-      "text": "Li",
-      "url": "http://linkedin.com/in/duncangeere"
-    }
-  ]
+        "icon": "li",
+        "url": "http://linkedin.com/in/duncangeere"
+    }]
 }

@@ -16,6 +16,11 @@ module.exports = config => {
         );
     });
 
+    // Returns testimonial items, sorted by display order
+    config.addCollection('testimonials', collection => {
+        return sortByDisplayOrder(collection.getFilteredByGlob('./src/testimonials/*.md'));
+    });
+
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',

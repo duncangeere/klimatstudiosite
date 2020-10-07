@@ -1,0 +1,27 @@
+<article class="[ youneedihelp ] [ dot-shadow panel ] [ bg-dark-shade color-light ]">
+  <div class="wrapper">
+    <div class="[ youneedihelp__inner ] [ flow ]">
+      <h3 class="[ youneedihelp__heading ] [ headline ]" data-highlight="quaternary">{{ youneedihelp.youNeed.title }}
+      </h3>
+      <ul>
+        {% for item in youneedihelp.youNeed.list %}
+        <li>{{item}}</li>
+        {% endfor %}
+      </ul>
+      <h3 class="[ youneedihelp__heading ] [ headline ]" data-highlight="quaternary">{{ youneedihelp.iHelp.title }}
+      </h3>
+      <tr>
+        <th>{{youneedihelp.iHelp.header[0]}}</th>
+        <th></th>
+        <th>{{youneedihelp.iHelp.header[1]}}</th>
+      </tr>
+      {% for item in youneedihelp.iHelp.list %}
+      <tr>
+        <td>{{item[0]}}</td>
+        <td>➤</td>
+        <td>{{item[1]}}</td>
+      </tr>
+      {% endfor %}
+    </div>
+  </div>
+</article>

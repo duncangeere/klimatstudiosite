@@ -3,10 +3,10 @@ title: 'Duncan Geere'
 layout: 'layouts/home.html'
 
 intro:
-  main: "Hi, I'm Duncan Geere"
-  summary: 'I’m an information designer interested in climate and environmental issues.'
+  name: 'Duncan Geere'
+  interest: 'climate and environmental issues'
   buttonText: 'Get in touch'
-  buttonUrl: '#contact'
+  buttonUrl: 'mailto:duncangeere@gmail.com'
   image: '/images/headshot.png'
   imageAlt: 'Black and white circular photo of Duncan Geere'
 
@@ -16,18 +16,13 @@ blurb:
 featuredWork:
   title: 'My work'
 
-whyCollaborate:
-  title: 'Why collaborate with me?'
-
 testimonials:
   title: 'What my clients say'
 
 newsletterCTA:
   title: 'Not ready to talk yet?'
-  summary: 'Sign up for my newsletter, sent every 10 days, where I write about my work and what I find interesting'
+  summary: 'Subscribe for my newsletter, sent every 10 days, where I write about my work and what I find interesting'
   archiveUrl: 'https://buttondown.email/duncangeere/archive'
-  buttonText: 'Buy a copy'
-  buttonUrl: 'https://piccalil.li/course/learn-eleventy-from-scratch/'
+  buttonText: 'Sign up'
+  buttonUrl: 'https://buttondown.email/duncangeere/'
 ---
-
-This is pretty _rad_, right?

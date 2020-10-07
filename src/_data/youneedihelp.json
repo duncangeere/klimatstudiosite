@@ -1,0 +1,32 @@
+{
+    "youNeed": {
+      "title": "You need an information designer if...",
+      "list": [
+        "You want to cut through academic jargon to reach a wider audience",
+        "You want to gain trust with a beautiful, accurate representation of data",
+        "You want to find and tell the stories within a mountain of information",
+        "You want to impress with a compelling, high-impact infographic"
+      ]
+    },
+    "iHelp": {
+      "title": "In short, I help you go...",
+      "header": [
+        "From",
+        "To"
+      ],
+      "list": [
+        [
+          "Jargon-filled reports",
+          "Powerful storytelling"
+        ],
+        [
+          "Huge spreadsheets of numbers",
+          "Beautiful data visualization"
+        ],
+        [
+          "Confused, bored stakeholders",
+          "Motivated, empowered audiences"
+        ]
+      ]
+    }
+}

@@ -1,0 +1,13 @@
+<article class="[ whycollaborate ] [ dot-shadow panel ] [ bg-dark-shade color-light ]">
+  <div class="wrapper">
+    <div class="[ whycollaborate__inner ] [ flow ]">
+      <h2 class="[ whycollaborate__heading ] [ headline ]" data-highlight="quaternary">{{ whycollaborate.title }}
+      </h2>
+      <ul>
+        {% for item in whycollaborate.list %}
+        <li><strong>{{item[0]}}</strong>{{item[1]}}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</article>

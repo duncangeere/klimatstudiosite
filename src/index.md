@@ -15,6 +15,8 @@ blurb:
 
 featuredWork:
   title: 'My work'
+  button: 'Download my portfolio'
+  url: 'http://klimat.design'
 
 testimonials:
   title: 'What my clients say'

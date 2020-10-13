@@ -1,5 +1,6 @@
 ---
 title: 'Duncan Geere'
+metaDesc: 'An experienced information designer interested in climate and environmental issues.'
 layout: 'layouts/home.html'
 
 intro:

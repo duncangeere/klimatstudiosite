@@ -1,12 +1,12 @@
 .site-head {
-  padding: get-size('300') 0;
+  padding: get-size('600') 0;
   background: get-color('primary');
   color: get-color('light');
 
   &__inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
@@ -17,10 +17,6 @@
 
     // Optical adjustment to make the logo line up
     transform: translateY(0.25rem);
-
-    svg {
-      width: 100px;
-    }
   }
 
   &__nav {
@@ -30,12 +26,12 @@
   @include media-query('md') {
     padding: get-size('600');
 
+    &__inner {
+      justify-content: space-between;
+    }
+
     &__brand {
       display: inline;
-
-      svg {
-        width: 50px;
-      }
     }
   }
 }

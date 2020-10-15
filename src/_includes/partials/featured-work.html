@@ -1,9 +1,9 @@
-<article class="[ featured-work ] [ dot-shadow panel ] [ bg-light-glare ]">
+<article class="[ featured-work ] [ bg-light ]">
   <div class="[ wrapper ] [ flow ]">
     <div class="[ featured-work__inner ] [ flow ]">
       <div class="[ featured-work__intro ] [ flow flow-space-300 ]">
         <h2
-          class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
+          class="[ featured-work__heading ] [ headline ] [ color-dark lg:measure-micro ]"
           data-highlight="dark"
         >
           {{ featuredWork.title }}
@@ -17,7 +17,7 @@
         href="{{ item.data.url }}"
         aria-label="See {{ item.data.title }}"
         class="[ featured-work__item ] [ frame ]"
-        data-frame="quaternary"
+        data-frame="primary"
         target="_blank"
       >
         <img
@@ -29,7 +29,7 @@
       </a>
       {% endfor %}
       <div class="portfolio__action">
-        <a class="button" data-variant="ghost" href="{{ featuredWork.url }}">{{ featuredWork.button }}</a>
+        <a class="button" href="{{ featuredWork.url }}">{{ featuredWork.button }}</a>
       </div>
     </div>
   </div>

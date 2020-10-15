@@ -1,0 +1,38 @@
+.site-head {
+  padding: get-size('300') 0;
+  background: get-color('primary');
+  color: get-color('light');
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__brand {
+    flex-shrink: 0;
+    margin-inline-end: get-size('300'); // Prevents nav bunching up to the logo
+
+    // Optical adjustment to make the logo line up
+    transform: translateY(0.25rem);
+
+    svg {
+      width: 100px;
+    }
+  }
+
+  &__nav {
+    padding: get-size('300') 0;
+  }
+
+  @include media-query('md') {
+    padding: get-size('600');
+
+    &__brand {
+      svg {
+        width: 50px;
+      }
+    }
+  }
+}

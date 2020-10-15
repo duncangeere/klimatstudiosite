@@ -4,14 +4,14 @@
   {% set ctaPrefix = ctaContent %}
 {% endif %}
 
-<article class="[ cta ] [ dot-shadow panel ] [ bg-dark-shade color-light ]">
+<article class="[ cta ] [ bg-dark color-light ]">
   <div class="wrapper">
     <div class="[ cta__inner ] [ flow ]">
-      <h3 class="[ cta__heading ] [ headline ]" data-highlight="quaternary">{{ ctaPrefix.title }}</h3>
+      <h3 class="[ cta__heading ] [ headline ]">{{ ctaPrefix.title }}</h3>
       <p class="[ cta__summary ] [ measure-short ]">{{ ctaPrefix.summary }}{% if ctaPrefix.archiveUrl %} (<a href="{{ ctaPrefix.archiveUrl }}">archive</a>){% endif %}.
       </p>
       <div class="cta__action">
-        <a class="button" data-variant="ghost" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
+        <a class="button" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>
       </div>
     </div>
   </div>

@@ -1,18 +1,18 @@
-<article class="[ testimonials ] [ dot-shadow panel ] [ bg-light-glare ]">
+<article class="[ testimonials ] [ bg-primary color-dark ]">
     <div class="[ wrapper ] [ flow ]">
-        <h2 class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]" data-highlight="dark">
+        <h2 class="[ featured-work__heading ] [ headline ] [ color-dark lg:measure-micro ]">
             {{ testimonials.title }}
         </h2>
         {% for item in collections.testimonials %}
         <div class="[ testimonials__inner ] [ flow ]">
-            <p class="[ testimonials__summary ] [ measure-compact ]">
+            <p class="[ testimonials__summary ] [ bg-light measure-compact ]">
                 {{ item.data.quote }}
             </p>
-            <div class="[ testimonials__content ] [ flow flow-space-300 ]">
-                <p class="[ testimonials__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]" data-highlight="dark">
+            <div class="[ testimonials__content ] [ bg-dark flow flow-space-300 ]">
+                <p class="[ testimonials__heading ] [ headline ] [ color-primary lg:measure-micro ]">
                     {{ item.data.by }}
                 </p>
-                <p class="[ testimonials__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]" data-highlight="light">
+                <p class="[ testimonials__heading ] [ headline ] [ color-light lg:measure-micro ]">
                     {{ item.data.title }}
                 </p>
             </div>

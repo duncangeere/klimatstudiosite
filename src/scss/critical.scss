@@ -48,8 +48,15 @@ main:focus {
 
 h1,
 h2,
+{
+  font-weight: 900;
+  text-transform: uppercase;
+  @include apply-utility('leading', 'flat');
+}
+
 h3,
-h4 {
+h4,
+{
   font-weight: 900;
 
   @include apply-utility('font', 'slab');
@@ -81,3 +88,9 @@ h4 {
   background-color: get-color('dark');
   border-radius: 0.25rem;
 }
+
+@import 'blocks/site-foot';
+@import 'blocks/site-head';
+@import 'blocks/nav';
+@import 'blocks/button';
+@import 'blocks/skip-link';

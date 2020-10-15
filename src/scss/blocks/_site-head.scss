@@ -11,6 +11,7 @@
   }
 
   &__brand {
+    display: none;
     flex-shrink: 0;
     margin-inline-end: get-size('300'); // Prevents nav bunching up to the logo
 
@@ -30,6 +31,8 @@
     padding: get-size('600');
 
     &__brand {
+      display: inline;
+
       svg {
         width: 50px;
       }

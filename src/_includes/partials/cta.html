@@ -4,11 +4,11 @@
   {% set ctaPrefix = ctaContent %}
 {% endif %}
 
-<article class="[ cta ] [ bg-dark color-light ]">
+<article class="[ cta ] [ bg-dark color-light invertselect ]">
   <div class="wrapper">
-    <div class="[ cta__inner ] [ flow ]">
+    <div class="[ cta__inner ] [ flow measure-compact automargin ]">
       <h3 class="[ cta__heading ] [ headline ]">{{ ctaPrefix.title }}</h3>
-      <p class="[ cta__summary ] [ measure-short ]">{{ ctaPrefix.summary }}{% if ctaPrefix.archiveUrl %} (<a href="{{ ctaPrefix.archiveUrl }}">archive</a>){% endif %}.
+      <p class="[ cta__summary ]">{{ ctaPrefix.summary }}{% if ctaPrefix.archiveUrl %} (<a href="{{ ctaPrefix.archiveUrl }}">archive</a>){% endif %}.
       </p>
       <div class="cta__action">
         <a class="button" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a>

@@ -15,6 +15,9 @@
 @import 'utilities/site-wrap';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
+@import 'utilities/automargin';
+@import 'utilities/invertselect';
+@import 'utilities/tablealign';
 
 @import 'reset';
 
@@ -28,8 +31,8 @@ body {
   color: get-color('dark');
   line-height: 1.5;
   font-size: get-size('500');
-
   @include apply-utility('font', 'base');
+  margin: auto;
 }
 
 a:not([class]) {
@@ -51,12 +54,14 @@ h2
 {
   font-weight: 900;
   text-transform: uppercase;
+  text-align: center;
   @include apply-utility('leading', 'flat');
 }
 
 h3
 {
-  font-weight: 900;
+  font-weight: 400;
+  text-align: center;
   @include apply-utility('font', 'slab');
   @include apply-utility('leading', 'flat');
 }
@@ -97,5 +102,7 @@ h4
 @import 'blocks/site-foot';
 @import 'blocks/site-head';
 @import 'blocks/nav';
+@import 'blocks/blurb';
+@import 'blocks/cta';
 @import 'blocks/button';
 @import 'blocks/skip-link';

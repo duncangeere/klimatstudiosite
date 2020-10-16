@@ -1,0 +1,4 @@
+.blurb {
+	text-align: left;
+	@include apply-utility('font', 'slab');
+}

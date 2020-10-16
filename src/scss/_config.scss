@@ -78,7 +78,7 @@ $gorko-config: (
   ),
   'leading': (
     'items': (
-      'loose': 1.7,
+      'loose': 2.0,
       'tight': 1.3,
       'flat': '1.1',
     ),
@@ -90,7 +90,8 @@ $gorko-config: (
       'micro': '10ch',
       'compact': '30ch',
       'short': '40ch',
-      'long': '65ch',
+      'long': '55ch',
+      'x-long': '65ch',
     ),
     'output': 'responsive',
     'property': 'max-width',

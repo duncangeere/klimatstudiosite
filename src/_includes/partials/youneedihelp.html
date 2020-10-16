@@ -1,29 +1,35 @@
-<article class="[ youneedihelp ] [ bg-dark color-light ]">
-  <div class="wrapper">
-    <div class="[ youneedihelp__inner ] [ flow ]">
-      <h3 class="[ youneedihelp__heading ] [ subheadline ]">{{ youneedihelp.youNeed.title }}
-      </h3>
-      <ul>
-        {% for item in youneedihelp.youNeed.list %}
-        <li>{{item}}</li>
-        {% endfor %}
-      </ul>
-      <h3 class="[ youneedihelp__heading ] [ subheadline ]">{{ youneedihelp.iHelp.title }}
-      </h3>
-      <table>
-        <tr class="[ color-primary ]">
-          <th><h4>{{youneedihelp.iHelp.header[0]}}</h4></th>
-          <th></th>
-          <th><h4>{{youneedihelp.iHelp.header[1]}}</h4></th>
-        </tr>
-        {% for item in youneedihelp.iHelp.list %}
-        <tr>
-          <td>{{item[0]}}</td>
-          <td>➤</td>
-          <td>{{item[1]}}</td>
-        </tr>
-        {% endfor %}
-    </table>
+<article class="[ youneedihelp ] [ bg-dark color-light invertselect ]">
+    <div class="wrapper">
+        <div class="[ youneed__inner ] [ flow measure-long automargin ]">
+            <h3 class="[ youneed__heading ] [ subheadline ]">{{ youneedihelp.youNeed.title }}
+            </h3>
+            <ul class="[ leading-loose ]">
+                {% for item in youneedihelp.youNeed.list %}
+                <li><span style="font-size: 80%">➤</span> {{item}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="[ ihelp__inner ] [ measure-long automargin ]">
+            <h3 class="[ ihelp__heading ] [ subheadline ]">{{ youneedihelp.iHelp.title }}
+            </h3>
+            <table>
+                <tr class="[ color-primary ]">
+                    <th class="[ table__right ]">
+                        <h4>{{youneedihelp.iHelp.header[0]}}</h4>
+                    </th>
+                    <th class="[ table__center ]"></th>
+                    <th class="[ table__left ]">
+                        <h4>{{youneedihelp.iHelp.header[1]}}</h4>
+                    </th>
+                </tr>
+                {% for item in youneedihelp.iHelp.list %}
+                <tr>
+                    <td class="[ table__right ]">{{item[0]}}</td>
+                    <td class="[ table__center ]">➤</td>
+                    <td class="[ table__left ]">{{item[1]}}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
     </div>
-  </div>
 </article>

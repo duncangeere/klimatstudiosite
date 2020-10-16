@@ -10,18 +10,20 @@
       </ul>
       <h3 class="[ youneedihelp__heading ] [ subheadline ]">{{ youneedihelp.iHelp.title }}
       </h3>
-      <tr>
-        <th>{{youneedihelp.iHelp.header[0]}}</th>
-        <th></th>
-        <th>{{youneedihelp.iHelp.header[1]}}</th>
-      </tr>
-      {% for item in youneedihelp.iHelp.list %}
-      <tr>
-        <td>{{item[0]}}</td>
-        <td>➤</td>
-        <td>{{item[1]}}</td>
-      </tr>
-      {% endfor %}
+      <table>
+        <tr class="[ color-primary ]">
+          <th><h4>{{youneedihelp.iHelp.header[0]}}</h4></th>
+          <th></th>
+          <th><h4>{{youneedihelp.iHelp.header[1]}}</h4></th>
+        </tr>
+        {% for item in youneedihelp.iHelp.list %}
+        <tr>
+          <td>{{item[0]}}</td>
+          <td>➤</td>
+          <td>{{item[1]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
     </div>
   </div>
 </article>

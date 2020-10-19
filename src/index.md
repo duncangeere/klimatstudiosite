@@ -1,11 +1,11 @@
 ---
 title: 'Duncan Geere'
-metaDesc: 'An experienced information designer interested in climate and environmental issues.'
+metaDesc: 'An experienced information designer interested in climate and the environment.'
 layout: 'layouts/home.html'
 
 intro:
   name: 'Duncan Geere'
-  interest: 'climate and environmental issues'
+  interest: 'climate and the environment'
   buttonText: 'Get in touch'
   buttonUrl: 'mailto:duncangeere@gmail.com'
   image: '/images/headshot.png'

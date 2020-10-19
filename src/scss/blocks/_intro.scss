@@ -4,9 +4,9 @@
     display: grid;
     grid-template-rows: minmax(0, 1fr) auto;
     grid-template-columns: auto 1fr auto;
-    row-gap: get-size('800');
-    column-gap: get-size('800');
-    margin: get-size('800') 0;
+    row-gap: get-size('600');
+    column-gap: get-size('600');
+    margin: get-size('600') 0;
     max-width: 70rem;
 
     // Force items to span 1 column

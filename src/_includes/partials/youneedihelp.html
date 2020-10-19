@@ -1,11 +1,11 @@
 <article class="[ youneedihelp ] [ bg-dark color-light invertselect ]">
     <div class="wrapper">
-        <div class="[ youneed__inner ] [ flow measure-long automargin ]">
+        <div class="[ youneed__inner ] [ flow measure-x-long automargin ]">
             <h3 class="[ youneed__heading ] [ subheadline ]">{{ youneedihelp.youNeed.title }}
             </h3>
-            <ul class="[ leading-loose ]">
+            <ul>
                 {% for item in youneedihelp.youNeed.list %}
-                <li><span style="font-size: 80%">➤</span> {{item}}</li>
+                <li>{{item}}</li>
                 {% endfor %}
             </ul>
         </div>

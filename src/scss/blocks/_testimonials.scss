@@ -1,0 +1,12 @@
+.testimonials {
+
+	&__inner {
+		border: solid get-color('dark') 2px;
+		margin: get-size('400');
+
+		> * {
+			padding: get-size('300');
+		} 
+
+	}
+}

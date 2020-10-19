@@ -1,5 +1,5 @@
 .site-head {
-  padding: get-size('600') 0;
+  padding: get-size('400') 0;
   background: get-color('primary');
   color: get-color('light');
 
@@ -24,7 +24,7 @@
   }
 
   @include media-query('md') {
-    padding: get-size('600');
+    padding: get-size('300');
 
     &__inner {
       justify-content: space-between;

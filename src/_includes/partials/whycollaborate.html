@@ -1,13 +1,18 @@
 <article class="[ whycollaborate ] [ bg-light color-dark ]">
-  <div class="wrapper">
-    <div class="[ whycollaborate__inner ] [ flow ]">
-      <h2 class="[ whycollaborate__heading ] [ headline ]">{{ whycollaborate.title }}
-      </h2>
-      <ul>
-        {% for item in whycollaborate.list %}
-        <li><strong>{{item[0]}}</strong>{{item[1]}}</li>
-        {% endfor %}
-      </ul>
+    <div class="wrapper">
+        <div class="[ whycollaborate__inner ] [ ]">
+            <h2 class="[ whycollaborate__heading ] [ headline ]">{{ whycollaborate.title }}
+            </h2>
+            <div class="[ whycollaborate__bullets ]">
+                <div class= "[ whycollaborate__block bg-primary ]">
+                </div>
+                    <ul>
+                        {% for item in whycollaborate.list %}
+                        <li><strong>{{item[0]}}</strong>{{item[1]}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </article>

@@ -9,6 +9,7 @@
                 {% endfor %}
             </ul>
         </div>
+        
         <div class="[ ihelp__inner ] [ measure-long automargin ]">
             <h3 class="[ ihelp__heading ] [ subheadline ]">{{ youneedihelp.iHelp.title }}
             </h3>
@@ -25,7 +26,7 @@
                 {% for item in youneedihelp.iHelp.list %}
                 <tr>
                     <td class="[ table__right ]">{{item[0]}}</td>
-                    <td class="[ table__center ]">➤</td>
+                    <td class="[ table__center ]"><span style="font-size: 80%">➤</span></td>
                     <td class="[ table__left ]">{{item[1]}}</td>
                 </tr>
                 {% endfor %}

@@ -1,0 +1,75 @@
+.intro {
+
+    // Default is a single column layout where the header overlaps the media
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    grid-template-columns: auto 1fr auto;
+    row-gap: get-size('800');
+    column-gap: get-size('800');
+    margin: get-size('800') 0;
+    max-width: 70rem;
+
+    // Force items to span 1 column
+    >* {
+        grid-column: 2;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    &__media {
+        grid-row: 1;
+        position: relative;
+        z-index: -1;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__content {
+        grid-row: 2;
+    }
+
+    &__highlight {
+        font-weight: bold;
+        color: get-color('primary')
+    }
+
+    // Switch to an inline layout with some vert space
+    // above the header and content
+    @include media-query('md') {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto minmax(15rem, 1fr) 2fr auto;
+        margin: 0 auto;
+
+        &__content {
+            align-self: end; // Aligns to bottom
+            grid-row: 2;
+            grid-column: 2/4;
+            margin: get-size('400') 0;
+            max-width: 21ch;
+        }
+
+        &__media {
+            grid-column: 4/2;
+            grid-row: 2;
+        }
+
+        // Because it's so large, it make sense to limit the image height too
+        &__media {
+            height: 35rem;
+        }
+    }
+
+    @include media-query('lg') {
+        &__content {
+        	max-width: 30ch;
+        }
+    }
+
+
+}

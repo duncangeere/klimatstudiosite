@@ -3,10 +3,11 @@
  * Nicer alignment in tables
  */
 
-.table {
-	
-    margin: auto;
+table {
+    margin: get-size('400') auto;
+}
 
+.table {
     &__right {
         text-align: right;
         padding: 0 get-size('300') 0 0;

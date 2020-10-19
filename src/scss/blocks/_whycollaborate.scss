@@ -1,0 +1,40 @@
+.whycollaborate {
+
+	h2 {
+		max-width: 20ch;
+		margin: auto;
+	}
+
+    ul {
+        list-style: none;
+        padding-left: get-size('400')
+    }
+
+    li {
+        margin: get-size('400')
+    }
+
+    &__bullets {
+        display: flex;
+    }
+
+    &__block {
+        display: none;
+        width: get-size('600');
+        margin: get-size('600') 0;
+    }
+
+    @include media-query('md') {
+
+    	h2 {
+    		max-width: 50ch;
+    	}
+
+
+        &__block {
+            display: inline-block;
+        }
+
+
+    }
+}

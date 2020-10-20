@@ -15,14 +15,17 @@
     "ico": [
     {
         "icon": "tw",
+        "alt": "Twitter",
         "url": "http://twitter.com/duncangeere"
     },
     {
         "icon": "in",
+        "alt": "Instagram",
         "url": "http://instagram.com/notrealistic"
     },
     {
         "icon": "li",
+        "alt": "LinkedIn",
         "url": "http://linkedin.com/in/duncangeere"
     }]
 }

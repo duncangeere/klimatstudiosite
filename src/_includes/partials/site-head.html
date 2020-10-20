@@ -13,7 +13,7 @@
                 {% endfor %}
                 {% for item in navigation.ico %}
                 <li>
-                    <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{% include "partials/nav/" + item.icon + ".svg" %}</a>
+                    <a href="{{ item.url }}" aria-label="{{ item.alt }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{% include "partials/nav/" + item.icon + ".svg" %}</a>
                 </li>
                 {% endfor %}
             </ul>

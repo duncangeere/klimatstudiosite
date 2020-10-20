@@ -5,10 +5,10 @@
         </h2>
         {% for item in collections.testimonials %}
         <div class="[ testimonials__inner ] [ panel ]">
-            <div class="[ testimonials__summary ] [ bg-light ]">
+            <div class="[ testimonials__quote ] [ bg-light ]">
                 <p>{{ item.data.quote }}</p>
             </div>
-            <div class="[ testimonials__content ] [ bg-dark ]">
+            <div class="[ testimonials__content ] [ bg-dark invertselect ]">
                 <div>
                     <p class="[ testimonials__heading ] [ headline ] [ color-primary ]">
                         {{ item.data.by }}

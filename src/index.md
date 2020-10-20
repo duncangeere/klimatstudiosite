@@ -17,7 +17,7 @@ blurb:
 featuredWork:
   title: 'My work'
   button: 'Download my portfolio'
-  url: 'http://klimat.design'
+  url: '/downloads/duncangeere-portfolio.pdf'
 
 testimonials:
   title: 'What my clients say'

@@ -1,4 +1,4 @@
-<article class="[ youneedihelp ] [ bg-dark color-light invertselect ]">
+<article class="[ bg-dark color-light invertselect ]">
     <div class="wrapper">
         <div class="[ youneed__inner ] [ flow measure-x-long automargin ]">
             <h3 class="[ youneed__heading ] [ subheadline ]">{{ youneedihelp.youNeed.title }}
@@ -9,28 +9,25 @@
                 {% endfor %}
             </ul>
         </div>
-        
         <div class="[ ihelp__inner ] [ measure-long automargin ]">
             <h3 class="[ ihelp__heading ] [ subheadline ]">{{ youneedihelp.iHelp.title }}
             </h3>
-            <table>
-                <tr class="[ color-primary ]">
-                    <th class="[ table__right ]">
-                        <h4>{{youneedihelp.iHelp.header[0]}}</h4>
-                    </th>
-                    <th class="[ table__center ]"></th>
-                    <th class="[ table__left ]">
-                        <h4>{{youneedihelp.iHelp.header[1]}}</h4>
-                    </th>
-                </tr>
-                {% for item in youneedihelp.iHelp.list %}
-                <tr>
-                    <td class="[ table__right ]">{{item[0]}}</td>
-                    <td class="[ table__center ]"><span style="font-size: 80%">➤</span></td>
-                    <td class="[ table__left ]">{{item[1]}}</td>
-                </tr>
-                {% endfor %}
-            </table>
+            <div class="[ ihelp__module ]">
+                <h4>{{youneedihelp.iHelp.header[0]}}</h4>
+                <ul class="[ ihelp__list ]">
+                    {% for item in youneedihelp.iHelp.list %}
+                    <li>{{item[0]}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="[ ihelp__module ]">
+                <h4>{{youneedihelp.iHelp.header[1]}}</h4>
+                <ul class="[ ihelp__list ]">
+                    {% for item in youneedihelp.iHelp.list %}
+                    <li>{{item[1]}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </article>

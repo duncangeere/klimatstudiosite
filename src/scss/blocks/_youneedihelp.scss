@@ -1,6 +1,10 @@
-.youneedihelp {
+.youneed {
 
-    .youneed__inner {
+    &__heading {
+        margin-bottom: get-size('400');
+    }
+
+    &__inner {
 
         ul {
 
@@ -9,12 +13,24 @@
             }
         }
     }
+}
 
-    .youneed__heading {
-        margin-bottom: get-size('400');
+.ihelp {
+
+    &__heading {
+        margin-bottom: get-size('400')
     }
 
-    .ihelp__inner {
+    &__inner {
+        text-align: center;
         margin-top: get-size('800');
+    }
+
+    &__module {
+        margin: get-size('600');
+
+        h4 {
+            margin-bottom: get-size('300');
+        }
     }
 }

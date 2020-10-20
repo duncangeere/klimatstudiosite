@@ -2,7 +2,19 @@ const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 
 module.exports = config => {
     // Set directories to pass through to the dist folder
-    config.addPassthroughCopy("./src/fonts/");
+    //config.addPassthroughCopy("./src/fonts/");
+    //config.addPassthroughCopy("./src/downloads/");
+
+    // Transforms
+    const htmlMinTransform = require('./src/transforms/html-min-transform.js');
+
+    // Create a helpful production flag
+    const isProduction = process.env.NODE_ENV === 'production';
+
+        // Only minify HTML if we are in production because it slows builds _right_ down
+    if (isProduction) {
+        config.addTransform('htmlmin', htmlMinTransform);
+    }
 
     // Returns work items, sorted by display order
     config.addCollection('work', collection => {

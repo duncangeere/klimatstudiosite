@@ -5,7 +5,7 @@
         </h2>
         <div class="[ featured-work__inner ] [ flow ]">
             {% for item in collections.featuredWork %}
-            <a href="{{ item.data.url }}" aria-label="See {{ item.data.title }}" class="[ featured-work__item ] [ frame ]" data-frame="primary" target="_blank">
+            <a href="{{ item.data.url }}" aria-label="See {{ item.data.title }}" class="[ featured-work__item ] [ frame ]" data-frame="primary" target="_blank" rel="noopener">
                 <img src="{{ item.data.image }}" alt="{{ item.data.title }}" loading="lazy" class="radius" />
             </a>
             {% endfor %}

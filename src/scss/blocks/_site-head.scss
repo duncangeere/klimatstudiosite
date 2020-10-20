@@ -1,37 +1,41 @@
 .site-head {
-  padding: get-size('400') 0;
-  background: get-color('primary');
-  color: get-color('light');
+    background: get-color('primary');
+    color: get-color('light');
+    margin: auto 0;
 
-  &__inner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__brand {
-    display: none;
-    flex-shrink: 0;
-    margin-inline-end: get-size('300'); // Prevents nav bunching up to the logo
-
-    // Optical adjustment to make the logo line up
-    transform: translateY(0.25rem);
-  }
-
-  &__nav {
-    padding: get-size('300') 0;
-  }
-
-  @include media-query('md') {
-    padding: get-size('300');
+    .wrapper {
+        padding: get-size('400');
+    }
 
     &__inner {
-      justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     &__brand {
-      display: inline;
+        display: none;
+        flex-shrink: 0;
+        margin-inline-end: get-size('300'); // Prevents nav bunching up to the logo
+
+        // Optical adjustment to make the logo line up
+        transform: translateY(0.25rem);
     }
-  }
+
+    &__nav {
+        padding: get-size('300') 0;
+    }
+
+    @include media-query('md') {
+        padding: 0 get-size('400');
+
+        &__inner {
+            justify-content: space-between;
+        }
+
+        &__brand {
+            display: inline;
+        }
+    }
 }

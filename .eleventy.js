@@ -5,6 +5,7 @@ module.exports = config => {
     config.addPassthroughCopy("./src/fonts/");
     config.addPassthroughCopy("./src/downloads/");
     config.addPassthroughCopy("./_redirects");
+    config.addPassthroughCopy("./src/inktober20/");
 
     // Transforms
     const htmlMinTransform = require('./src/transforms/html-min-transform.js');

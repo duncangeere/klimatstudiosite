@@ -6,8 +6,12 @@
     grid-template-columns: auto 1fr auto;
     row-gap: get-size('600');
     column-gap: get-size('600');
-    margin: get-size('600') 0;
+    margin: get-size('600');
     max-width: 70rem;
+
+    @supports (display: grid) {
+        margin: get-size('600') 0;
+    }
 
     // Force items to span 1 column
     >* {
@@ -67,9 +71,7 @@
 
     @include media-query('lg') {
         &__content {
-        	max-width: 30ch;
+            max-width: 30ch;
         }
     }
-
-
 }

@@ -6,6 +6,7 @@ module.exports = config => {
     config.addPassthroughCopy("./src/downloads/");
     config.addPassthroughCopy("./_redirects");
     config.addPassthroughCopy("./src/inktober20/");
+    config.addPassthroughCopy("./src/carbonincontext/");
 
     // Transforms
     const htmlMinTransform = require('./src/transforms/html-min-transform.js');

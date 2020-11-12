@@ -9,29 +9,42 @@ const r = new Rune({
 
 function graphic() {
 
+    // Grab the data
     async function getData() {
         const response = await fetch("https://api.v2.emissions-api.org/api/v2/ozone/average.json");
         const data = await response.json();
         return data
     }
 
+    // Draw the visual
     function drawSpiral (data) {
 
-        const d = [];
-
+        // Parse the data from the JSON into an array
+        const dat = [];
         for (let datum of data) {
-            d.push(datum.average);
+            dat.push(datum.average);
         }
 
+        // Get just the last 365 entries
+        const d = dat.slice(-365)
+
+        // Loop over the data
         for (let i = 0; i < d.length; i++) {
-            length = Rune.map(d[i], Math.min(...d), Math.max(...d), 0, r.height);
+
+            // Map it to viewable lengths
+            length = Rune.map(d[i]-0.05, 0, Math.max(...d), 0, r.height);
+
+            // Calculate x position
             const x = +((10 + i * (r.width-20) / d.length).toFixed(2));
+
+            // Draw each line
             r.line(x, r.height, x, r.height - length);
         }
 
         r.draw()
     }
 
+    // Make it all happen
     getData().then(data => drawSpiral(data)).catch(error => console.error(error));
 
 }

@@ -8,6 +8,7 @@ module.exports = config => {
     config.addPassthroughCopy("./src/inktober20/");
     config.addPassthroughCopy("./src/carbonincontext/");
     config.addPassthroughCopy("./src/ozonetest/");
+    config.addPassthroughCopy("./src/co2test/");
 
     // Transforms
     const htmlMinTransform = require('./src/transforms/html-min-transform.js');

@@ -27,7 +27,7 @@ function graphic() {
             dat.push(datum.cycle);
         }
 
-        // Get just the last 365 entries
+        // Get just the last few entries
         const d = dat.slice(-730)
 
         // Loop over the data

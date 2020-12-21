@@ -8,6 +8,7 @@ $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
 // Pull in blocks
+@import 'blocks/banner';
 @import 'blocks/intro';
 @import 'blocks/blurb';
 @import 'blocks/featured-work';

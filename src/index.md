@@ -3,6 +3,11 @@ title: 'Duncan Geere'
 metaDesc: 'An experienced information designer interested in climate and the environment.'
 layout: 'layouts/home.html'
 
+banner:
+  text: 'New on my Blog:'
+  urltext: '2020 in Review'
+  url: 'https://blog.duncangeere.com/tag/2020-in-review/'
+
 intro:
   name: 'Duncan Geere'
   interest: 'climate and the environment'

@@ -1,0 +1,29 @@
+.banner {
+    text-align: center;
+    text-transform: uppercase;
+	font-size: get-size('400');
+    @include apply-utility('weight', 'bold');
+
+    &__inner {
+        padding: get-size('300');
+    }
+
+    // Remove underline from link
+    a {
+        text-decoration: none;
+        color: get-color('primary')
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a:active {
+        text-decoration: underline;
+    }
+
+    // Make the font larger on desktop and tablet
+    @include media-query('md') {
+        font-size: get-size('500');
+    }
+}

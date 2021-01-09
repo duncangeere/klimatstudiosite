@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New on my Blog:'
-  urltext: '2020 in Review'
-  url: 'https://blog.duncangeere.com/tag/2020-in-review/'
+  urltext: 'I'm Joining Possible
+  url: 'https://blog.duncangeere.com/joining-possible/'
 
 intro:
   name: 'Duncan Geere'

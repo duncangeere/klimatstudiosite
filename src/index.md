@@ -5,7 +5,7 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New on my Blog:'
-  urltext: 'I'm Joining Possible'
+  urltext: 'I’m Joining Possible'
   url: 'https://blog.duncangeere.com/joining-possible/'
 
 intro:

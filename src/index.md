@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New on my Blog:'
-  urltext: 'The Car Free Megacities Data Dashboard'
-  url: 'https://blog.duncangeere.com/car-free-megacities-dashboard/'
+  urltext: 'Loud Numbers is Released!'
+  url: 'https://blog.duncangeere.com/loud-numbers-is-released/'
 
 intro:
   name: 'Duncan Geere'

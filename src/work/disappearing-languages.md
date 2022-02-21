@@ -2,6 +2,6 @@
 title: 'Disappearing Languages'
 url: 'https://interactive.howwegettonext.com/endangeredlanguages/'
 displayOrder: 4
-featured: true
+featured: false
 image: '/images/work/disappearing-languages.jpg'
 ---

@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New on my Blog:'
-  urltext: 'Loud Numbers is Released!'
-  url: 'https://blog.duncangeere.com/loud-numbers-is-released/'
+  urltext: 'Introducing: The Elevate Membership Program'
+  url: 'https://blog.duncangeere.com/introducing-the-elevate-membership-program/'
 
 intro:
   name: 'Duncan Geere'

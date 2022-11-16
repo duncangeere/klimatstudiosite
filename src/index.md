@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New on my Blog:'
-  urltext: 'Introducing: The Elevate Membership Program'
-  url: 'https://blog.duncangeere.com/introducing-the-elevate-membership-program/'
+  urltext: 'Noisy Megacities'
+  url: 'https://blog.duncangeere.com/noisy-megacities/'
 
 intro:
   name: 'Duncan Geere'

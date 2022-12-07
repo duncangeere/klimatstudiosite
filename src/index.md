@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New on my Blog:'
-  urltext: 'Noisy Megacities'
-  url: 'https://blog.duncangeere.com/noisy-megacities/'
+  urltext: 'A Dashboard For Planet Earth'
+  url: 'https://blog.duncangeere.com/a-dashboard-for-planet-earth-2/'
 
 intro:
   name: 'Duncan Geere'

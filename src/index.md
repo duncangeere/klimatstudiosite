@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New on my Blog:'
-  urltext: 'A Dashboard For Planet Earth'
-  url: 'https://blog.duncangeere.com/a-dashboard-for-planet-earth-2/'
+  urltext: '2022 in Review'
+  url: 'https://blog.duncangeere.com/2022-in-review/'
 
 intro:
   name: 'Duncan Geere'

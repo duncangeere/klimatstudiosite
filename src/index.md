@@ -4,9 +4,9 @@ metaDesc: 'An experienced information designer interested in climate and the env
 layout: 'layouts/home.html'
 
 banner:
-  text: 'New on my Blog:'
-  urltext: '2022 in Review'
-  url: 'https://blog.duncangeere.com/2022-in-review/'
+  text: 'New:'
+  urltext: 'Ableton.com featured my sonification work'
+  url: 'https://www.ableton.com/en/blog/sound-the-alarm-data-sonification-as-a-tool-for-climate-action/'
 
 intro:
   name: 'Duncan Geere'

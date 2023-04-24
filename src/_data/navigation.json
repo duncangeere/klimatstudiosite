@@ -1,31 +1,28 @@
 {
     "txt": [
-    {
-        "text": "My Work",
-        "url": "#mywork"
-    },
-    {
-        "text": "Newsletter",
-        "url": "https://buttondown.email/duncangeere"
-    },
-    {
-        "text": "Blog",
-        "url": "https://blog.duncangeere.com"
-    }],
+        {
+            "text": "My Work",
+            "url": "#mywork"
+        },
+        {
+            "text": "Newsletter",
+            "url": "https://buttondown.email/duncangeere"
+        },
+        {
+            "text": "Blog",
+            "url": "https://blog.duncangeere.com"
+        }
+    ],
     "ico": [
-    {
-        "icon": "tw",
-        "alt": "Twitter",
-        "url": "http://twitter.com/duncangeere"
-    },
-    {
-        "icon": "in",
-        "alt": "Instagram",
-        "url": "http://instagram.com/duncan_geere"
-    },
-    {
-        "icon": "li",
-        "alt": "LinkedIn",
-        "url": "http://linkedin.com/in/duncangeere"
-    }]
+        {
+            "icon": "in",
+            "alt": "Instagram",
+            "url": "http://instagram.com/duncan_geere"
+        },
+        {
+            "icon": "li",
+            "alt": "LinkedIn",
+            "url": "http://linkedin.com/in/duncangeere"
+        }
+    ]
 }

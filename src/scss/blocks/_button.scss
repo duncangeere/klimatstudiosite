@@ -2,7 +2,7 @@
   @extend .radius;
 
   display: inline-block;
-  padding: 0.5rem 2rem;
+  padding: 0.8rem 2rem 0.5rem 2rem;
   background: get-color('primary');
   color: get-color('dark');
   border: 2px solid;
@@ -11,6 +11,7 @@
   text-align: center;
 
   @include apply-utility('weight', 'bold');
+  @include apply-utility('font', 'base');
 
   // Make sure hover state trumps all variants with a good ol’ important
   &:hover {

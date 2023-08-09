@@ -1,8 +1,10 @@
 .banner {
     text-align: center;
     text-transform: uppercase;
-	font-size: get-size('400');
+    font-size: get-size('400');
     @include apply-utility('weight', 'bold');
+    @include apply-utility('font', 'base');
+    padding-top: 4px;
 
     &__inner {
         padding: get-size('300');

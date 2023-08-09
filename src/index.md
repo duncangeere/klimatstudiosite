@@ -1,6 +1,6 @@
 ---
-title: 'Duncan Geere'
-metaDesc: 'An experienced information designer interested in climate and the environment.'
+title: 'Klimat Studio'
+metaDesc: 'An information design agency interested in climate and the environment.'
 layout: 'layouts/home.html'
 
 banner:
@@ -25,11 +25,11 @@ featuredWork:
   url: '/downloads/duncangeere-portfolio.pdf'
 
 testimonials:
-  title: 'What my clients say'
+  title: 'What our clients say'
 
 newsletterCTA:
   title: 'Not ready to talk yet?'
-  summary: 'Subscribe to my newsletter, sent every 10 days, where I write about my work and what I find interesting'
+  summary: 'Subscribe to our newsletter, sent every 10 days, where I write about my work and what I find interesting'
   archiveUrl: 'https://buttondown.email/duncangeere/archive'
   buttonText: 'Sign up'
   buttonUrl: 'https://buttondown.email/duncangeere/'

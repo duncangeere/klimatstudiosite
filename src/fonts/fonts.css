@@ -1,32 +1,31 @@
 @font-face {
-    font-family: 'Glacial Indifference';
-    src: url('./GlacialIndifference-Bold.woff') format('woff');
+    font-family: 'ITC Avant Garde Std';
+    src: url('./ITCAvantGardeStd-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rockwell';
-    src: url('./Rockwell-Bold.woff') format('woff');
+    font-family: 'Vollkorn';
+    src: url('./Vollkorn-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Glacial Indifference';
-    src: url('./GlacialIndifference-Regular.woff') format('woff');
+    font-family: 'ITC Avant Garde Std';
+    src: url('./ITCAvantGardeStd-Bk.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Rockwell';
-    src: url('./Rockwell-Regular.woff') format('woff');
+    font-family: 'Vollkorn';
+    src: url('./Vollkorn-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
-

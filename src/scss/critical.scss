@@ -32,7 +32,7 @@ body {
   color: get-color('dark');
   line-height: 1.5;
   font-size: 1.25rem;
-  @include apply-utility('font', 'base');
+  @include apply-utility('font', 'serif');
   margin: auto;
 }
 
@@ -51,24 +51,23 @@ main:focus {
 }
 
 h1,
-h2
-{
+h2 {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+  @include apply-utility('font', 'base');
   @include apply-utility('leading', 'flat');
 }
 
-h3
-{
+h3 {
   font-weight: 400;
   text-align: center;
-  @include apply-utility('font', 'slab');
+  @include apply-utility('font', 'base');
   @include apply-utility('leading', 'flat');
+  @include apply-utility('weight', 'bold');
 }
 
-h4
-{
+h4 {
   font-weight: 900;
   text-transform: uppercase;
   @include apply-utility('leading', 'flat');

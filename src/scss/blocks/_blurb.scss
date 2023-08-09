@@ -1,4 +1,5 @@
 .blurb {
 	text-align: left;
-	@include apply-utility('font', 'slab');
+	@include apply-utility('font', 'serif');
+	font-size: 110%;
 }

@@ -29,7 +29,7 @@ testimonials:
 
 newsletterCTA:
   title: 'Not ready to talk yet?'
-  summary: 'Subscribe to our newsletter, sent every 10 days, where I write about my work and what I find interesting'
+  summary: 'Subscribe to my newsletter, sent every 10 days, where I write about my work and what I find interesting'
   archiveUrl: 'https://buttondown.email/duncangeere/archive'
   buttonText: 'Sign up'
   buttonUrl: 'https://buttondown.email/duncangeere/'

@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New:'
-  urltext: 'Ableton.com featured my sonification work'
-  url: 'https://www.ableton.com/en/blog/sound-the-alarm-data-sonification-as-a-tool-for-climate-action/'
+  urltext: 'Impactful Community Leader Award'
+  url: 'https://blog.duncangeere.com/impactful-community-leader/'
 
 intro:
   name: 'Duncan Geere'

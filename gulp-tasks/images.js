@@ -1,5 +1,7 @@
 const {dest, src} = require('gulp');
 const imagemin = require('gulp-imagemin');
+const mozjpeg = require('imagemin-mozjpeg');
+const optipng = require('imagemin-optipng');
 
 // Grabs all images, runs them through imagemin
 // and plops them in the dist folder
@@ -10,14 +12,18 @@ const images = () => {
     .pipe(
       imagemin(
         [
-          imagemin.mozjpeg({quality: 60, progressive: true}),
-          imagemin.optipng({optimizationLevel: 5, interlaced: null})
+          mozjpeg({quality: 60, progressive: true}),
+          optipng({optimizationLevel: 5})
         ],
         {
           silent: true
         }
       )
     )
+    .on('error', function (err) { 
+      console.error('Image minification error:', err.message);
+      this.emit('end');
+    })
     .pipe(dest('./dist/images'));
 };
 

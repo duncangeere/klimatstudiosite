@@ -5,7 +5,7 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New:'
-  urltext: 'Images not appearing? I am working on a fix!'
+  urltext: 'Impactful Community Leader Award'
   url: 'https://blog.duncangeere.com/impactful-community-leader/'
 
 intro:

@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New:'
-  urltext: 'Impactful Community Leader Award'
-  url: 'https://blog.duncangeere.com/impactful-community-leader/'
+  urltext: 'The Carrington Event'
+  url: 'https://blog.duncangeere.com/the-carrington-event/'
 
 intro:
   name: 'Duncan Geere'

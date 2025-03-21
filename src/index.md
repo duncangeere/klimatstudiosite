@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New:'
-  urltext: 'The Carrington Event'
-  url: 'https://blog.duncangeere.com/the-carrington-event/'
+  urltext: 'On Standby'
+  url: 'https://blog.duncangeere.com/on-standby/'
 
 intro:
   name: 'Duncan Geere'

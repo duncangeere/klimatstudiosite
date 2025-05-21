@@ -25,7 +25,7 @@ featuredWork:
   url: '/downloads/duncangeere-portfolio.pdf'
 
 testimonials:
-  title: 'What our clients say'
+  title: 'What my clients say'
 
 newsletterCTA:
   title: 'Not ready to talk yet?'

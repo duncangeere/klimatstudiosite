@@ -12,7 +12,7 @@ intro:
   name: 'Duncan Geere'
   interest: 'climate and the environment'
   buttonText: 'Get in touch'
-  buttonUrl: 'mailto:duncangeere@gmail.com'
+  buttonUrl: 'mailto:hello@duncangeere.com'
   image: '/images/headshot.png'
   imageAlt: 'Black and white circular photo of Duncan Geere'
 
@@ -30,7 +30,7 @@ testimonials:
 newsletterCTA:
   title: 'Not ready to talk yet?'
   summary: 'Subscribe to my newsletter, sent every 10 days, where I write about my work and what I find interesting'
-  archiveUrl: 'https://buttondown.email/duncangeere/archive'
+  archiveUrl: 'https://blog.duncangeere.com/'
   buttonText: 'Sign up'
-  buttonUrl: 'https://buttondown.email/duncangeere/'
+  buttonUrl: 'https://blog.duncangeere.com/#/portal/signup'
 ---

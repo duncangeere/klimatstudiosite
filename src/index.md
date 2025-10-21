@@ -5,8 +5,8 @@ layout: 'layouts/home.html'
 
 banner:
   text: 'New:'
-  urltext: 'On Standby'
-  url: 'https://blog.duncangeere.com/on-standby/'
+  urltext: 'A Symphony of Bureaucracy'
+  url: 'https://blog.duncangeere.com/a-symphony-of-bureaucracy/'
 
 intro:
   name: 'Duncan Geere'
